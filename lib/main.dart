@@ -51,7 +51,14 @@ class MainApp extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [DynamicTreeWidget(), DynamicCodeTextWidget()],
+                        children: [
+                          Text("MERRY CHRISTMAS, unione!",
+                              style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: Colors.transparent)),
+                          DynamicTreeWidget(),
+                          DynamicCodeTextWidget(),
+                          Text("MERRY CHRISTMAS, unione!",
+                              style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: Colors.transparent)),
+                        ],
                       ),
                     ),
                   ),
