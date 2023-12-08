@@ -36,7 +36,7 @@ class MainApp extends StatelessWidget {
         );
       },
       home: Title(
-        title: "YEAR AND PARTY TREE",
+        title: "YEAR END PARTY TREE",
         color: const Color(0xFF2A0920),
         child: Scaffold(
           backgroundColor: const Color(0xFF2A0920),
