@@ -181,7 +181,7 @@ class _DynamicCodeTextWidgetState extends State<DynamicCodeTextWidget> {
     return Column(
       children: [
         if (loveCnt > 8) ...[
-          const Text("MERRY CHRISTMAS, unione!", style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: Color(0xFFC40E1E))),
+          const Text("MERRY CHRISTMAS, unione!", style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: Color(0xFF12A10D))),
         ] else ...[
           const Text("MERRY CHRISTMAS!", style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: Color(0xFFC40E1E))),
         ],
