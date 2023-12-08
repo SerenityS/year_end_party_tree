@@ -190,7 +190,7 @@ class _DynamicCodeTextWidgetState extends State<DynamicCodeTextWidget> {
           onTap: () {
             loveCnt++;
 
-            if (loveCnt == 8) {
+            if (loveCnt == 9) {
               setState(() {});
             }
           },
