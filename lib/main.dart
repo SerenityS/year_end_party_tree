@@ -41,12 +41,20 @@ class MainApp extends StatelessWidget {
         child: Scaffold(
           backgroundColor: const Color(0xFF2A0920),
           body: LayoutBuilder(builder: (context, constraints) {
-            return const SafeArea(
+            return SafeArea(
               child: Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [DynamicTreeWidget(), DynamicCodeTextWidget()],
+                child: SizedBox(
+                  height: constraints.maxHeight,
+                  child: const FittedBox(
+                    child: Padding(
+                      padding: EdgeInsets.all(20.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [DynamicTreeWidget(), DynamicCodeTextWidget()],
+                      ),
+                    ),
+                  ),
                 ),
               ),
             );
